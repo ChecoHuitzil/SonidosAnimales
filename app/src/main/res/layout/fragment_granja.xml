@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Boton gallo -->
+        <ImageButton
+            android:id="@+id/btnGallo"
+            android:layout_width="180dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/gallo"
+            android:scaleType="centerCrop"
+            android:background="#FFFFFF"
+            android:contentDescription="Sonido de gallo"
+            android:padding="6dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GALLO"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#333333"/>
+
+        <!-- Boton cerdo -->
+        <ImageButton
+            android:id="@+id/btnCerdo"
+            android:layout_width="180dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/cerdo"
+            android:scaleType="centerCrop"
+            android:background="#FFFFFF"
+            android:contentDescription="Sonido de cerdo"
+            android:padding="6dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CERDO"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#333333"/>
+
+        <!-- Boton oveja -->
+        <ImageButton
+            android:id="@+id/btnOveja"
+            android:layout_width="180dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/oveja"
+            android:scaleType="centerCrop"
+            android:background="#FFFFFF"
+            android:contentDescription="Sonido de oveja"
+            android:padding="6dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OVEJA"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#333333"/>
+
+        <!-- Boton caballo -->
+        <ImageButton
+            android:id="@+id/btnCaballo"
+            android:layout_width="180dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/caballo"
+            android:scaleType="centerCrop"
+            android:background="#FFFFFF"
+            android:contentDescription="Sonido de caballo"
+            android:padding="6dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CABALLO"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#333333"/>
+
+    </LinearLayout>
+</ScrollView>
